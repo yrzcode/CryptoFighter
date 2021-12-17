@@ -41,12 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: BackgroundStuffTilemap
+  - name: Background
     uniqueID: 4166926903
     locked: 0
-  - name: PlatformTilemap
+  - name: Ground
     uniqueID: 683143431
+    locked: 0
+  - name: Enemies
+    uniqueID: 2811632659
     locked: 0
   - name: Player
     uniqueID: 3399316763
+    locked: 0
+  - name: Projectiles
+    uniqueID: 594164223
+    locked: 0
+  - name: Effects
+    uniqueID: 2318472963
     locked: 0

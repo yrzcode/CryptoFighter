@@ -3,26 +3,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjetctileController : MonoBehaviour
+public abstract class ProjetctileController : MonoBehaviour
 {
-    private ProjectileConfig projectileConfig;
-    private PlayerPunk playerPunk;
-    private float projectileDirection;
+
+    ProjectileConfig projectileConfig;
+
+    protected float projectileDirection;
+
 
     private void Awake()
     {
         projectileConfig = FindObjectOfType<LaserController>().GetPrejectileConfig();
-        playerPunk = FindObjectOfType<PlayerPunk>();
-        projectileDirection = playerPunk.transform.localScale.x;
 
-        Invoke("DestroyProjectile", projectileConfig.GetWaitTimeToDestroy());
+        projectileDirection = transform.localScale.x;
 
+
+        Destroy(gameObject, projectileConfig.GetWaitTimeToDestroy());
     }
 
-    private void Update()
-    {
-        HandleProjectileMovement();
-    }
 
     protected virtual void HandleProjectileMovement()
     {
@@ -32,9 +30,8 @@ public class ProjetctileController : MonoBehaviour
                               * Time.deltaTime;
     }
 
-    protected virtual void DestroyProjectile()
-    {
-        Destroy(gameObject);
-    }
+    protected abstract void DestroyProjectile();
+    
+
 }
 

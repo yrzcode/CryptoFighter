@@ -4,17 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Shooter : MonoBehaviour
+public abstract class Shooter : MonoBehaviour
 {
-    [SerializeField]private GameObject proJectilePrafab;
 
+    protected abstract void HandleShooting();
 
-    private void HandleShooting()
-    {
-        Instantiate(proJectilePrafab,
-                    transform.position,
-                    Quaternion.Euler(0,0,90f));
-    }
 
     private void OnFire(InputValue value)
     {
@@ -23,4 +17,5 @@ public class Shooter : MonoBehaviour
             HandleShooting();
         }
     }
+    
 }

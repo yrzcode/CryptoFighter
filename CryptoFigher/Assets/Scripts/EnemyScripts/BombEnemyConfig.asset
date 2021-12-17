@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ee7c22009bff44e5be3387a8b2f28ab, type: 3}
-  m_Name: LaserProjetileConfig
+  m_Script: {fileID: 11500000, guid: 18f863b05e92c4b16a33fe261c3a5966, type: 3}
+  m_Name: BombEnemyConfig
   m_EditorClassIdentifier: 
-  projectileSpeed: 30
-  waiteTimeToDestroy: 2
-  laserExplosionEffectPrefab: {fileID: 152634, guid: c816e04fdd948ef479558e37f6acc4ae, type: 3}
+  enemyMoveSpeed: 2

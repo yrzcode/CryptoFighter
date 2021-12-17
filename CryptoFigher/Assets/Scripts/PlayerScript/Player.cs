@@ -10,7 +10,8 @@ public class Player : MonoBehaviour
 {
 
     PlayerConfig playerConfig;
-
+    private MouseShooter mouseShooter;
+    private CircleCollider2D playerCircleCollider2D;
     private Vector2 playerInputValue;
     private Rigidbody2D playerRigidbody2D;
     private Animator playerAnimator;
@@ -23,6 +24,8 @@ public class Player : MonoBehaviour
         playerRigidbody2D = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponentInChildren<Animator>();
         playerConfig = FindObjectOfType<PlayerPunk>().GetPlayerConfig();
+        mouseShooter = FindObjectOfType<MouseShooter>();
+        playerCircleCollider2D = FindObjectOfType<CircleCollider2D>();
     }
 
     private void Start()
@@ -34,16 +37,30 @@ public class Player : MonoBehaviour
     {
         HandlePlayerMovement();
 
-        HandlePlayerFlipping();
+        if (!mouseShooter.IsPlayerLaserShooting())
+        {
+            HandlePlayerFlipping();
+        }
+        else
+        {
+            preDirectionX = transform.localScale.x;
+        }
 
         HandlePlayerJumpingAnime();
+
+        HandlePlayerClambingAnime();
 
 
     }
 
 
-
     //Handler
+
+    private void HandlePlayerClambingAnime()
+    {
+        playerAnimator.SetBool("isPlayerClambing", IsPlayerTouchingWall());
+    }
+
     private void HandlePlayerJumpingAnime()
     {
         if (!isPlayerTouchingGround())
@@ -119,6 +136,14 @@ public class Player : MonoBehaviour
         playerRigidbody2D.IsTouchingLayers(LayerMask.GetMask("Ground"));
 
     }
+
+    public bool IsPlayerTouchingWall()
+    {
+        return
+playerCircleCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"));
+
+    }
+
 
     bool isPlayerRuning()
     {
