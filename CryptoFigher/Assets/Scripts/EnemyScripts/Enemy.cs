@@ -2,22 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D),typeof(Animator))]
-
-
+[RequireComponent(typeof(Rigidbody2D),typeof(CircleCollider2D), typeof(BoxCollider2D))]
 
 public abstract class Enemy : MonoBehaviour
 {
+    [SerializeField] protected EnemyConfig enemyConfig;
+
+
     protected Rigidbody2D enemyRigidbody2D;
-    protected Animator enemyAnimator;
+    protected CircleCollider2D enemyCircleCollider2D;
+    protected BoxCollider2D enemyBoxCollider2D;
+
+
+    protected virtual void Awake()
+    {
+       enemyRigidbody2D = GetComponent<Rigidbody2D>();
+       enemyCircleCollider2D = GetComponent<CircleCollider2D>();
+        enemyBoxCollider2D = GetComponent<BoxCollider2D>();
+
+    }
+
+    protected bool IsEnemySensorTouchingLayer(Layer layer)
+    {
+        return enemyCircleCollider2D.IsTouchingLayers(
+            LayerMask.GetMask(layer.ToString()));
+    }
+
+
+
+    protected bool IsEnemyFootTouchingLayer(Layer layer)
+    {
+        return enemyBoxCollider2D.IsTouchingLayers(
+            LayerMask.GetMask(layer.ToString()));
+    }
+
+
+    protected void FlipSelf()
+    {
+        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y,transform.localScale.z);
+    }
 
     protected abstract void HandleEnemyMovement();
 
 
-    private void Awake()
-    {
-       enemyRigidbody2D = GetComponent<Rigidbody2D>();
-       enemyAnimator = GetComponent<Animator>();
-    }
 
 }

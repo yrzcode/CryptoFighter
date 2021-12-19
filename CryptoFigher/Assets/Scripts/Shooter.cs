@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 
 public abstract class Shooter : MonoBehaviour
 {
+    [SerializeField]private AudioClip shootSound;
+    [SerializeField]private float shootSoundVolume;
 
     protected abstract void HandleShooting();
 
@@ -15,7 +17,12 @@ public abstract class Shooter : MonoBehaviour
         if (value.isPressed)
         {
             HandleShooting();
+
         }
     }
-    
+
+    protected void PlayShootSound()
+    {
+        AudioSource.PlayClipAtPoint(shootSound, Camera.main.transform.position,shootSoundVolume);
+    }
 }

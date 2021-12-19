@@ -1,0 +1,3172 @@
+Unity Editor version:    2020.3.24f1 (79c78de19888)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/apple/Desktop/myGames/CryptoFighter/CryptoFigher
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51076
+Successfully changed project path to: /Users/apple/Desktop/myGames/CryptoFighter/CryptoFigher
+/Users/apple/Desktop/myGames/CryptoFighter/CryptoFigher
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 87.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/apple/Desktop/myGames/CryptoFighter/CryptoFigher/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-19 20:06:53.938 Unity[3643:193768] Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+2021-12-19 20:06:53.938 Unity[3643:193768] Metal devices available: 2
+2021-12-19 20:06:53.938 Unity[3643:193768] 0: AMD Radeon Pro 5300M (high power)
+2021-12-19 20:06:53.938 Unity[3643:193768] 1: Intel(R) UHD Graphics 630 (low power)
+2021-12-19 20:06:53.939 Unity[3643:193768] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56643
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002086 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (688ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.608 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1610ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1382ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.036264 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.058356 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+2021-12-19 20:06:58.520 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000015882a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-12-19 20:06:58.524 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000015b0bd0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2784 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 337.5 MB.
+System memory in use after: 336.8 MB.
+
+Unloading 188 unused Assets to reduce memory usage. Loaded Objects now: 3264.
+Total: 4.861678 ms (FindLiveObjects: 0.468634 ms CreateObjectMapping: 0.222563 ms MarkObjects: 3.607588 ms  DeleteObjects: 0.561982 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Loot/TreasureVerticalGlowRays.prefab
+  artifactKey: Guid(a1f601f8073d04c4986963b2dee4bfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Loot/TreasureVerticalGlowRays.prefab using Guid(a1f601f8073d04c4986963b2dee4bfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a0d72e7aec5055c3a084ed4cbdd3d2') in 0.924570 seconds 
+  Import took 0.934497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Loot/TreasureChestGlowRays.prefab
+  artifactKey: Guid(f4ee46380c4b7d04fa62d89e6d9d310c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Loot/TreasureChestGlowRays.prefab using Guid(f4ee46380c4b7d04fa62d89e6d9d310c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf670aab02d6673d794ac5dff5ed385') in 0.013178 seconds 
+  Import took 0.017530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Flares
+  artifactKey: Guid(4a7588db9aa35274ea6fdcd6366f6a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Flares using Guid(4a7588db9aa35274ea6fdcd6366f6a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5a28635892bf6888fb0e5f0f6bf3c7') in 0.000889 seconds 
+  Import took 0.005236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Loot/GlowOrb
+  artifactKey: Guid(204bb38edf71f474b93ef0da3e195df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Loot/GlowOrb using Guid(204bb38edf71f474b93ef0da3e195df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed231b178f4bef7a5b4ad1ae93ec94ef') in 0.000882 seconds 
+  Import took 0.005497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.713043 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Loot/ItemSkewedGlow
+  artifactKey: Guid(a2004e55acf34554787255df39e49888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Loot/ItemSkewedGlow using Guid(a2004e55acf34554787255df39e49888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf18f38c537d2bc9eabb88e669e22687') in 0.001003 seconds 
+  Import took 0.005733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.609476 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal
+  artifactKey: Guid(103df1da95c480049a7253e7a09dc381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal using Guid(103df1da95c480049a7253e7a09dc381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4ac1756efc4a6d667c3eee0b0f5fd3') in 0.001143 seconds 
+  Import took 0.006949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.852808 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalGreen.prefab
+  artifactKey: Guid(e369416ca848b20439557e28d5afc76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalGreen.prefab using Guid(e369416ca848b20439557e28d5afc76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2012f72e8a31859e09e8552dfdd8af9') in 0.014755 seconds 
+  Import took 0.020464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.514436 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalPurple.prefab
+  artifactKey: Guid(c26b84f8b12b03f4d8f03ce1826c0278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalPurple.prefab using Guid(c26b84f8b12b03f4d8f03ce1826c0278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6182645cbd8c0faf2ea9b86a6e0843d0') in 0.012497 seconds 
+  Import took 0.017562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.999000 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalBlue.prefab
+  artifactKey: Guid(0845aa8b2ce753145ab9bacc42062661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalBlue.prefab using Guid(0845aa8b2ce753145ab9bacc42062661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd80d4129b13042f9437861ded1fc590') in 0.012550 seconds 
+  Import took 0.018003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.156815 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalGold.prefab
+  artifactKey: Guid(11943dcb81a97804fbd4b58ce063f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalGold.prefab using Guid(11943dcb81a97804fbd4b58ce063f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41e285c7d9b31bdce5e928802f66b3f') in 0.011040 seconds 
+  Import took 0.016141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.249806 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalGold 1.prefab
+  artifactKey: Guid(c508a305892d64a84aca18e1d1568ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal/SimplePortalGold 1.prefab using Guid(c508a305892d64a84aca18e1d1568ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61373a0dedfc91ea2e0ef44cd6c793ec') in 0.013419 seconds 
+  Import took 0.018649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.612685 seconds.
+  path: Assets/Effects/Epic Toon FX/Models
+  artifactKey: Guid(44409221bfdcca942ab36de17ef087bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Models using Guid(44409221bfdcca942ab36de17ef087bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd005ba55d80eed1f7d7381d3fe53194f') in 0.001201 seconds 
+  Import took 0.006792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.030244 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/ElectricDeathYellow.prefab
+  artifactKey: Guid(64213efe87b202141b44b6a613b892e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/ElectricDeathYellow.prefab using Guid(64213efe87b202141b44b6a613b892e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da84f6562b7243f7563d27100b4a8a2') in 0.025207 seconds 
+  Import took 0.030753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.850294 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/CuteDeath.prefab
+  artifactKey: Guid(7469283484e0dcc4887fa575d1fd7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/CuteDeath.prefab using Guid(7469283484e0dcc4887fa575d1fd7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60229afdfe45db5665c905056a87e39e') in 0.016351 seconds 
+  Import took 0.021614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.508875 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/ElectricDeathBlue.prefab
+  artifactKey: Guid(96a96c08c36361544affb3c783e0056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/ElectricDeathBlue.prefab using Guid(96a96c08c36361544affb3c783e0056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbc1aefdd6468c273d08a7074c38c64') in 0.016650 seconds 
+  Import took 0.022817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.500027 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/EvilDeath.prefab
+  artifactKey: Guid(cca79b260878071418290367024a6716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/EvilDeath.prefab using Guid(cca79b260878071418290367024a6716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884e21ed1399913c590f44e76cc38e3d') in 0.011639 seconds 
+  Import took 0.016940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.063123 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/FrostDeath.prefab
+  artifactKey: Guid(65221b7881c819a429dbe5e646b0bd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/FrostDeath.prefab using Guid(65221b7881c819a429dbe5e646b0bd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86403da2ec22492ce59b3f0fe9702be') in 0.016301 seconds 
+  Import took 0.021721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.870417 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/GenericDeath.prefab
+  artifactKey: Guid(e73000b12fb76244cbffd6abbf8bb6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/GenericDeath.prefab using Guid(e73000b12fb76244cbffd6abbf8bb6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d597bd1c8bf0a15c853ff85a00b3b90') in 0.013469 seconds 
+  Import took 0.018985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.098041 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/MysticDeath.prefab
+  artifactKey: Guid(75f06efdf4dffb64196a8a771986c0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/MysticDeath.prefab using Guid(75f06efdf4dffb64196a8a771986c0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4819871fac42c2b9e0bfff72ffa4dc29') in 0.015057 seconds 
+  Import took 0.020313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831704 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/PoisonDeath.prefab
+  artifactKey: Guid(76ea784c73256a744b24cba813a687e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/PoisonDeath.prefab using Guid(76ea784c73256a744b24cba813a687e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5df8b6437bc669cd2932935925643e') in 0.013094 seconds 
+  Import took 0.017732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.879881 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/SuperEvilDeath.prefab
+  artifactKey: Guid(93c383a7bb6b65547bc569e7d7f10507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death/SuperEvilDeath.prefab using Guid(93c383a7bb6b65547bc569e7d7f10507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc2814e0c81e11045f5f19881ed2203') in 0.019664 seconds 
+  Import took 0.025560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.614932 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Explosion Decal
+  artifactKey: Guid(abff68256144f1a42a7988dc34597cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Explosion Decal using Guid(abff68256144f1a42a7988dc34597cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101b5596e296737e5e24285baa8ee309') in 0.001062 seconds 
+  Import took 0.006047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.420753 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Explosion Decal/ExplosionDecalGreen.prefab
+  artifactKey: Guid(a83424e30925fb9419a9d80dce7f8399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Explosion Decal/ExplosionDecalGreen.prefab using Guid(a83424e30925fb9419a9d80dce7f8399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99c73445baf5d38cd36756123a4f043') in 0.013385 seconds 
+  Import took 0.019052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.564541 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Explosion Decal/ExplosionDecalPink.prefab
+  artifactKey: Guid(a6dd7f2908dfe2d4297923b7528f3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Explosion Decal/ExplosionDecalPink.prefab using Guid(a6dd7f2908dfe2d4297923b7528f3538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39f8d4793de94d7687834ed57f23631') in 0.012222 seconds 
+  Import took 0.016796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.106492 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Explosion Decal/ExplosionDecalBlue.prefab
+  artifactKey: Guid(2048bd4dd68bfe14bbbeb2a573517d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Explosion Decal/ExplosionDecalBlue.prefab using Guid(2048bd4dd68bfe14bbbeb2a573517d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ab55aede4ad88d03ecea0c864925a0') in 0.010760 seconds 
+  Import took 0.016110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.758930 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Blood
+  artifactKey: Guid(c654c8baf6260a54cafa8ef2f2ae11c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Blood using Guid(c654c8baf6260a54cafa8ef2f2ae11c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b789e565504ff8a0aee5bf74458254af') in 0.000990 seconds 
+  Import took 0.006499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.737954 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green
+  artifactKey: Guid(7438a281fde145b40961a9c27c3d0348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green using Guid(7438a281fde145b40961a9c27c3d0348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd248670eccbc450c0f6be49f156e0065') in 0.001274 seconds 
+  Import took 0.006603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.394451 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodExplosion2D.prefab
+  artifactKey: Guid(9dbd6578ad45ab34da731a133a3bd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodExplosion2D.prefab using Guid(9dbd6578ad45ab34da731a133a3bd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80f81b88d0b2032953e0a30ca787764') in 0.009567 seconds 
+  Import took 0.015383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127025 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodExplosion2D.prefab
+  artifactKey: Guid(9dbd6578ad45ab34da731a133a3bd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodExplosion2D.prefab using Guid(9dbd6578ad45ab34da731a133a3bd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eed8775b0796e6d455ca8b6d96b152') in 0.011255 seconds 
+  Import took 0.016706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.302322 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatCritical2D.prefab
+  artifactKey: Guid(fcb242a204cb73e46bb764583d0bf1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatCritical2D.prefab using Guid(fcb242a204cb73e46bb764583d0bf1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c5c3f22ddf08b846e2535a19d91382') in 0.009014 seconds 
+  Import took 0.014291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115906 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatCritical2D.prefab
+  artifactKey: Guid(fcb242a204cb73e46bb764583d0bf1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatCritical2D.prefab using Guid(fcb242a204cb73e46bb764583d0bf1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043361a98ef54f4b9bdd422962b2f426') in 0.011573 seconds 
+  Import took 0.017641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.001501 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatDirectional2D.prefab
+  artifactKey: Guid(5384d3f8b0176d243993a8f09a3978bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatDirectional2D.prefab using Guid(5384d3f8b0176d243993a8f09a3978bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed023f90d14b704929788ae2ad9df9d') in 0.009024 seconds 
+  Import took 0.014062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106914 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatDirectional2D.prefab
+  artifactKey: Guid(5384d3f8b0176d243993a8f09a3978bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodSplatDirectional2D.prefab using Guid(5384d3f8b0176d243993a8f09a3978bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ed66244048839dfcd80b7a1d402e9e') in 0.014102 seconds 
+  Import took 0.019349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.127408 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Explosions/SparkExplosion2D.prefab
+  artifactKey: Guid(ec61825cb06be72419bb09eee03af08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Explosions/SparkExplosion2D.prefab using Guid(ec61825cb06be72419bb09eee03af08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcb679b10497d8f4c4a1e1f0f7d5fbe') in 0.010358 seconds 
+  Import took 0.015879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.953273 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs 2D/Weather/Rain2D.prefab
+  artifactKey: Guid(478f08c0ededf814f8e88dac52448678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs 2D/Weather/Rain2D.prefab using Guid(478f08c0ededf814f8e88dac52448678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c88dd6d4a3533f3022d92d4446bd6cb') in 0.012301 seconds 
+  Import took 0.017230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.198831 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Brawling
+  artifactKey: Guid(99be6e8c6f5c44e4bb36b573bc937872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Brawling using Guid(99be6e8c6f5c44e4bb36b573bc937872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8638052288e79194f963531d4605025') in 0.001249 seconds 
+  Import took 0.007216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.160644 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood
+  artifactKey: Guid(18507a08ddee8694a80ddd61f73323bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood using Guid(18507a08ddee8694a80ddd61f73323bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c671c31a18c673b4b4cb57262d8dacd8') in 0.001062 seconds 
+  Import took 0.006711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.468260 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood/Green
+  artifactKey: Guid(f7cd895945561524bbca13c0caacd769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood/Green using Guid(f7cd895945561524bbca13c0caacd769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edb6d7c1cc9d48c28e04f77c287c1b0') in 0.001206 seconds 
+  Import took 0.006685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.623591 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodExplosionRoundAnimated.prefab
+  artifactKey: Guid(f563a43ef6da8ce43b59040b834b597d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodExplosionRoundAnimated.prefab using Guid(f563a43ef6da8ce43b59040b834b597d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385267ba923101270ef298b229c23aea') in 0.013063 seconds 
+  Import took 0.018811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.844690 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatDirectionalAnimated.prefab
+  artifactKey: Guid(0588baf7ce32f9e42bb9d8777136e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatDirectionalAnimated.prefab using Guid(0588baf7ce32f9e42bb9d8777136e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cee2e3885a5462cd98598f9939b12b') in 0.017659 seconds 
+  Import took 0.024191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.237211 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatWide.prefab
+  artifactKey: Guid(22e35da3d2c81274bb1c8fd73cca399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatWide.prefab using Guid(22e35da3d2c81274bb1c8fd73cca399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016f6fe3fb76f35618aaf25e88cbf212') in 0.013614 seconds 
+  Import took 0.019190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.892080 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals
+  artifactKey: Guid(19eea75a892962c4db036163d50ae4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals using Guid(19eea75a892962c4db036163d50ae4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9462482ac3bce4a31b95b318d76d0b') in 0.001036 seconds 
+  Import took 0.005308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.131917 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Brawling/RoundHit
+  artifactKey: Guid(0f5ac42a970e49544aedd7845f41d684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Brawling/RoundHit using Guid(0f5ac42a970e49544aedd7845f41d684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9c6a9911cd407f3a50e9e83ce89698') in 0.001129 seconds 
+  Import took 0.005784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.005911 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/BombFuse
+  artifactKey: Guid(f34e080fc64e8284e8b2f1ce4a0b29cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/BombFuse using Guid(f34e080fc64e8284e8b2f1ce4a0b29cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae27b8a9c3a21a8e1dc5e26886e5b50') in 0.001157 seconds 
+  Import took 0.006379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.197420 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Combat FX.txt
+  artifactKey: Guid(31a474c59773ec44e9b1421f50fd7dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Combat FX.txt using Guid(31a474c59773ec44e9b1421f50fd7dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43011c657d97b34870b7c4eb2f2c03c6') in 1.477199 seconds 
+  Import took 1.486952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Death
+  artifactKey: Guid(8cf7d00ec9bc8544a8495d1d9cfaa421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Death using Guid(8cf7d00ec9bc8544a8495d1d9cfaa421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eac61efa20675c884036e59c3197b6f') in 0.001076 seconds 
+  Import took 0.006428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.010175 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal
+  artifactKey: Guid(08afe4649d161af4cab3106385ecbc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal using Guid(08afe4649d161af4cab3106385ecbc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da3e9ac3a2fc3b34820ecdd2e766527') in 0.001050 seconds 
+  Import took 0.007196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.854068 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Sword/Whirlwind
+  artifactKey: Guid(b7ca0213086dd734ca978beb47458555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Sword/Whirlwind using Guid(b7ca0213086dd734ca978beb47458555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9af68aff295178fb87e9761ec7381d') in 0.001026 seconds 
+  Import took 0.006286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.666430 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Sword/Whirlwind/SwordWhirlwindYellow.prefab
+  artifactKey: Guid(b098b4ebd6582a04da9c69c07452bba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Sword/Whirlwind/SwordWhirlwindYellow.prefab using Guid(b098b4ebd6582a04da9c69c07452bba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14170587540d4886db349d29344dcf4') in 0.018587 seconds 
+  Import took 0.024065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.766936 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Sword/Whirlwind/SwordWhirlwindWhite.prefab
+  artifactKey: Guid(8243470e37cffc541978addf2dccb436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Sword/Whirlwind/SwordWhirlwindWhite.prefab using Guid(8243470e37cffc541978addf2dccb436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a65d7dd8756c7056124ab886681dbe1') in 0.013616 seconds 
+  Import took 0.018703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.182472 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic
+  artifactKey: Guid(947cb6fb010e09c4187dc54718b1efc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic using Guid(947cb6fb010e09c4187dc54718b1efc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fabc1b95e62c9bc35beb1043a7992a6') in 0.001595 seconds 
+  Import took 0.006498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.889757 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileGreen.prefab
+  artifactKey: Guid(41fc6e40715949e47aa61f8001df94fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileGreen.prefab using Guid(41fc6e40715949e47aa61f8001df94fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eadc116232f214dd15aaf442fa8c12b') in 0.028100 seconds 
+  Import took 0.033932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.726556 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab
+  artifactKey: Guid(b73366db2a2695c46a59adb7555604e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab using Guid(b73366db2a2695c46a59adb7555604e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4660c0559faad75d00ba9246b894e81') in 0.019546 seconds 
+  Import took 0.024699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124618 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab
+  artifactKey: Guid(b73366db2a2695c46a59adb7555604e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab using Guid(b73366db2a2695c46a59adb7555604e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543e9ce19c28e4e3ffe8e865b1a0ed55') in 0.022343 seconds 
+  Import took 0.027248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.622486 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileFire.prefab
+  artifactKey: Guid(07f89bdb820892e49bcd5c32bf299006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissileFire.prefab using Guid(07f89bdb820892e49bcd5c32bf299006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f597b74aa3fcb3fbfc0df2c703f537b0') in 0.019048 seconds 
+  Import took 0.024740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.103478 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle Simple/MagicCircleSimpleYellow.prefab
+  artifactKey: Guid(c211cd63eef717741a0578bda14552a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle Simple/MagicCircleSimpleYellow.prefab using Guid(c211cd63eef717741a0578bda14552a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f48e3cb4aa35abd2ea29192a6f643f') in 0.019437 seconds 
+  Import took 0.024958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.033965 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle Simple/MagicCircleSimpleGreen.prefab
+  artifactKey: Guid(9823f61a7e929c6468def83c27560f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle Simple/MagicCircleSimpleGreen.prefab using Guid(9823f61a7e929c6468def83c27560f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe8f6a0d384747fdd91dc3ec1a79670') in 0.013975 seconds 
+  Import took 0.019569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.903716 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle/MagicCircleYellow.prefab
+  artifactKey: Guid(8f3db2ef4b3fd674eafb97a117b99408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle/MagicCircleYellow.prefab using Guid(8f3db2ef4b3fd674eafb97a117b99408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6584435fda37bd0aa918b19fd8e03476') in 0.016625 seconds 
+  Import took 0.022073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.909439 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle/MagicCircleGreen.prefab
+  artifactKey: Guid(8f75fe73ef3ce1e4ab33ff60e0cf9996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle/MagicCircleGreen.prefab using Guid(8f75fe73ef3ce1e4ab33ff60e0cf9996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b0fdde0494bdadf901ec28b630c1d7') in 0.015634 seconds 
+  Import took 0.020940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.229810 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle/MagicCircleBlue.prefab
+  artifactKey: Guid(24e29d528f11acf42974643bee14a607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Magic/Circle/MagicCircleBlue.prefab using Guid(24e29d528f11acf42974643bee14a607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02feaca40a9e3fc0e9d954b371caf3c') in 0.014171 seconds 
+  Import took 0.019944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.361062 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Environment/Fire/Soft/SoftFireAB/SoftFireABRed.prefab
+  artifactKey: Guid(78892530d39aaea41a7f4adc11f8c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Environment/Fire/Soft/SoftFireAB/SoftFireABRed.prefab using Guid(78892530d39aaea41a7f4adc11f8c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472a266e630a0a87e8a370c2895d4a07') in 0.011908 seconds 
+  Import took 0.017529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990125 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Environment/Fire/Soft/SoftFireAB/SoftFireABYellow.prefab
+  artifactKey: Guid(7ce1cf2537abade4bae7a6789ca2223f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Environment/Fire/Soft/SoftFireAB/SoftFireABYellow.prefab using Guid(7ce1cf2537abade4bae7a6789ca2223f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f0296f8afe2abe0329a42b5d7b15e2') in 0.009957 seconds 
+  Import took 0.015131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.972464 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Environment/Fire/Soft/SoftFireAB/SoftFireABGreen.prefab
+  artifactKey: Guid(25dc03b489e6742429a853a731d19c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Environment/Fire/Soft/SoftFireAB/SoftFireABGreen.prefab using Guid(25dc03b489e6742429a853a731d19c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9043b7dcde255322e229dc5b4b165271') in 0.009479 seconds 
+  Import took 0.014680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.190784 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzlePink.prefab
+  artifactKey: Guid(1dbafc7fba2f305479c16364f5956eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzlePink.prefab using Guid(1dbafc7fba2f305479c16364f5956eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b3de3b4b54acf8833e40cfbdc0757c') in 0.015225 seconds 
+  Import took 0.020605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.728313 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleFire.prefab
+  artifactKey: Guid(9b8a3a9ce5d6cd546b9a3ef91545d0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleFire.prefab using Guid(9b8a3a9ce5d6cd546b9a3ef91545d0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730e4beac2db5b972b09bbd29dc63f04') in 0.010790 seconds 
+  Import took 0.015966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.670792 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleBlue.prefab
+  artifactKey: Guid(03dfeff0afe9122418bab1774a66566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleBlue.prefab using Guid(03dfeff0afe9122418bab1774a66566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c3aa68eb2cdadfb155f8540f43cfa9') in 0.011199 seconds 
+  Import took 0.016006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.585433 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzleGreen.prefab
+  artifactKey: Guid(311b74008ff5f1449a5167bd2c9901ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzleGreen.prefab using Guid(311b74008ff5f1449a5167bd2c9901ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21ab27001699d13ffc9e51f6f4149c1') in 0.014331 seconds 
+  Import took 0.019339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.682079 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzleFire.prefab
+  artifactKey: Guid(d786954ea58ae6f45b3de29c31ec67f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzleFire.prefab using Guid(d786954ea58ae6f45b3de29c31ec67f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2934a007a4e6d874621a20f7abfbaf2') in 0.014051 seconds 
+  Import took 0.018735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.862985 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzlePink.prefab
+  artifactKey: Guid(0d79fbba411af7541b91f5ae2aa2e31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzlePink.prefab using Guid(0d79fbba411af7541b91f5ae2aa2e31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4a7cd7512cb15c01232f91de42305e') in 0.012994 seconds 
+  Import took 0.017611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.051937 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzleBlue.prefab
+  artifactKey: Guid(83cbfdcec541739499bcee069cf124ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzleBlue.prefab using Guid(83cbfdcec541739499bcee069cf124ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa27ff037ca94b3f6d2797ea07fa69b') in 0.018569 seconds 
+  Import took 0.023854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.045340 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695837a780746f2e75e50a374866cc07') in 0.015809 seconds 
+  Import took 0.021208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.770650 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs
+  artifactKey: Guid(2ebb69a1e1e234631a5b8f0cc8d8b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs using Guid(2ebb69a1e1e234631a5b8f0cc8d8b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4432c1e0f965f2c2126cd6e6b197ef49') in 0.002034 seconds 
+  Import took 0.007155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.210374 seconds.
+  path: Assets/Scripts/PlayerScript/punkConfig.asset
+  artifactKey: Guid(45d31953bb36f48c69fc239555c27b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScript/punkConfig.asset using Guid(45d31953bb36f48c69fc239555c27b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbea83ef5b4d0b600edcdb286d4eb46a') in 0.096347 seconds 
+  Import took 0.106923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.967572 seconds.
+  path: Assets/Scripts/PlayerScript/PlayerConfig.cs
+  artifactKey: Guid(39ba9c5b64e804d92bf7b6b9b686f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScript/PlayerConfig.cs using Guid(39ba9c5b64e804d92bf7b6b9b686f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b64b99591cf442dc0b63626baa43d17') in 0.223863 seconds 
+  Import took 0.232713 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:18:19.659 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001556290 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1309ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1115ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 351.0 MB.
+System memory in use after: 351.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3274.
+Total: 3.423589 ms (FindLiveObjects: 0.272257 ms CreateObjectMapping: 0.107557 ms MarkObjects: 3.013536 ms  DeleteObjects: 0.029034 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.831107 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a40595ecb56601bb7d065ab855a49be') in 0.078750 seconds 
+  Import took 0.084451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.323775 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicAuraYellow 1.prefab
+  artifactKey: Guid(c2b9a752b4946414ab461b2610bcafd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicAuraYellow 1.prefab using Guid(c2b9a752b4946414ab461b2610bcafd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8c1fa05057cf3a238e765089aa4474') in 0.025170 seconds 
+  Import took 0.030438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767334 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicAuraYellow 1.prefab
+  artifactKey: Guid(c2b9a752b4946414ab461b2610bcafd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicAuraYellow 1.prefab using Guid(c2b9a752b4946414ab461b2610bcafd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c2caaf042d6aaef68c3431f8165bcb') in 0.014185 seconds 
+  Import took 0.020360 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:20:11.021 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001556530 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1407ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1226ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 351.3 MB.
+System memory in use after: 351.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 3.853903 ms (FindLiveObjects: 0.249087 ms CreateObjectMapping: 0.126344 ms MarkObjects: 3.458809 ms  DeleteObjects: 0.018807 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:21:06.845 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000156dc70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1330ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1150ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 351.6 MB.
+System memory in use after: 351.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3279.
+Total: 3.464104 ms (FindLiveObjects: 0.270342 ms CreateObjectMapping: 0.126175 ms MarkObjects: 3.050578 ms  DeleteObjects: 0.016159 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004385 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:21:24.357 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000156e680 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1232ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1058ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 351.8 MB.
+System memory in use after: 352.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3281.
+Total: 3.065139 ms (FindLiveObjects: 0.234999 ms CreateObjectMapping: 0.110915 ms MarkObjects: 2.704190 ms  DeleteObjects: 0.014308 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:21:35.004 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001596990 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1261ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1081ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 352.0 MB.
+System memory in use after: 352.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3283.
+Total: 3.913120 ms (FindLiveObjects: 0.262275 ms CreateObjectMapping: 0.150986 ms MarkObjects: 3.479789 ms  DeleteObjects: 0.019236 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:21:41.403 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000153d3b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1317ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1121ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 352.2 MB.
+System memory in use after: 352.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3285.
+Total: 3.967523 ms (FindLiveObjects: 0.279767 ms CreateObjectMapping: 0.132256 ms MarkObjects: 3.536313 ms  DeleteObjects: 0.018202 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:22:07.281 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001537f70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1320ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1120ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 352.5 MB.
+System memory in use after: 352.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3287.
+Total: 4.007535 ms (FindLiveObjects: 0.287189 ms CreateObjectMapping: 0.145126 ms MarkObjects: 3.556688 ms  DeleteObjects: 0.017722 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:22:57.208 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001536840 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1221ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1026ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 352.7 MB.
+System memory in use after: 352.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 3.458869 ms (FindLiveObjects: 0.271403 ms CreateObjectMapping: 0.130663 ms MarkObjects: 3.038777 ms  DeleteObjects: 0.017193 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:23:30.380 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000159b9c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1250ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 352.9 MB.
+System memory in use after: 353.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3291.
+Total: 3.584689 ms (FindLiveObjects: 0.265758 ms CreateObjectMapping: 0.122027 ms MarkObjects: 3.179056 ms  DeleteObjects: 0.017114 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:23:37.935 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001524000 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1325ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 353.1 MB.
+System memory in use after: 353.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3293.
+Total: 4.256382 ms (FindLiveObjects: 0.311238 ms CreateObjectMapping: 0.176538 ms MarkObjects: 3.746079 ms  DeleteObjects: 0.021233 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:24:11.834 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001535490 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.246 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1247ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1052ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 353.3 MB.
+System memory in use after: 353.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3295.
+Total: 3.913352 ms (FindLiveObjects: 0.301217 ms CreateObjectMapping: 0.135963 ms MarkObjects: 3.456100 ms  DeleteObjects: 0.019322 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002940 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:25:29.890 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001525c00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1101ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 353.6 MB.
+System memory in use after: 353.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3297.
+Total: 3.806909 ms (FindLiveObjects: 0.257681 ms CreateObjectMapping: 0.120951 ms MarkObjects: 3.408828 ms  DeleteObjects: 0.018693 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:27:24.769 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000156ff00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1351ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1154ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 353.8 MB.
+System memory in use after: 354.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3299.
+Total: 3.850987 ms (FindLiveObjects: 0.264956 ms CreateObjectMapping: 0.121104 ms MarkObjects: 3.446328 ms  DeleteObjects: 0.017731 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 502.567144 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53330645c93310d7d0ce364e47b7a0eb') in 0.094082 seconds 
+  Import took 0.100004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.726095 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120499cfd817a007793894325f6c1f8c') in 0.019461 seconds 
+  Import took 0.025528 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:28:30.829 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000156fdb0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.403 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1403ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1197ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (318ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 354.0 MB.
+System memory in use after: 354.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3302.
+Total: 3.937835 ms (FindLiveObjects: 0.324703 ms CreateObjectMapping: 0.140204 ms MarkObjects: 3.452257 ms  DeleteObjects: 0.019714 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53.467878 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b516aa383403ede9b55c61a7b10be5') in 0.091592 seconds 
+  Import took 0.098266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.234697 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5a912d3716dc0105bd32da601178e1') in 0.013128 seconds 
+  Import took 0.020347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:29:00.388 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001553b80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1567ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1343ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (544ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 354.3 MB.
+System memory in use after: 354.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3305.
+Total: 4.574707 ms (FindLiveObjects: 0.327146 ms CreateObjectMapping: 0.143505 ms MarkObjects: 4.080274 ms  DeleteObjects: 0.022588 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.479004 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab378abb28eb580db3e66fa38cf3b830') in 0.076817 seconds 
+  Import took 0.083697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.522089 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566071bc30e21f44a20ec88cdfc45f38') in 0.013820 seconds 
+  Import took 0.020575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.995600 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ae552d8a1e7ee7799348d0612101f0') in 0.013598 seconds 
+  Import took 0.019709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.868208 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab
+  artifactKey: Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/RocketMuzzlePink 1.prefab using Guid(ac31e7dffcaa64d54b0a25f79cbfcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831a2c18807d13f83a5c986c9d70d75f') in 0.013542 seconds 
+  Import took 0.018907 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:29:57.236 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000155dc70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.463 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1463ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1264ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 354.5 MB.
+System memory in use after: 354.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3308.
+Total: 4.129832 ms (FindLiveObjects: 0.287028 ms CreateObjectMapping: 0.143982 ms MarkObjects: 3.676912 ms  DeleteObjects: 0.020947 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.753076 seconds.
+  path: Assets/Effects/Epic Toon FX/Materials/Misc/Fire
+  artifactKey: Guid(84e94ff284f0fe74b992ed4ff1cd7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Materials/Misc/Fire using Guid(84e94ff284f0fe74b992ed4ff1cd7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8116049559535e12ea4e14c1bcd7b424') in 0.005267 seconds 
+  Import took 0.010282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.068287 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StormExplosion/StormExplosion.prefab
+  artifactKey: Guid(4e110ae3c6c4a44438488f03e233bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StormExplosion/StormExplosion.prefab using Guid(4e110ae3c6c4a44438488f03e233bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096ce34b38c57e2623ec21a3c67664a8') in 0.078598 seconds 
+  Import took 0.084234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.170450 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionPink.prefab
+  artifactKey: Guid(f8232d266ed6c8043a5353ca283993ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionPink.prefab using Guid(f8232d266ed6c8043a5353ca283993ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f31bf0592225acb7e24947344b3ed3') in 0.016903 seconds 
+  Import took 0.022033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159983 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionPink.prefab
+  artifactKey: Guid(f8232d266ed6c8043a5353ca283993ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionPink.prefab using Guid(f8232d266ed6c8043a5353ca283993ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a06d2ba6bae83650c23bf00c8fa3a4f') in 0.014448 seconds 
+  Import took 0.019538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.817278 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionOrange.prefab
+  artifactKey: Guid(471088445f741e64c82f447ba7849c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionOrange.prefab using Guid(471088445f741e64c82f447ba7849c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8053addaba21d325a4cb84d2b98bd8') in 0.015061 seconds 
+  Import took 0.020387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127710 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionOrange.prefab
+  artifactKey: Guid(471088445f741e64c82f447ba7849c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionOrange.prefab using Guid(471088445f741e64c82f447ba7849c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b30a88c6494e15e0f3d43c2a7839c8') in 0.013864 seconds 
+  Import took 0.020004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.676061 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionFire.prefab
+  artifactKey: Guid(f2ee009e61b1177489331d95174281b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionFire.prefab using Guid(f2ee009e61b1177489331d95174281b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514351178d47b1290a3a77d2b68e76ac') in 0.015548 seconds 
+  Import took 0.020760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.646197 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionPink.prefab
+  artifactKey: Guid(a70a24d8868a592499df4cf5b6dbed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionPink.prefab using Guid(a70a24d8868a592499df4cf5b6dbed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9b735cfc431ec50ed5b65e55d8a7e1') in 0.013880 seconds 
+  Import took 0.019589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.502160 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionGreen.prefab
+  artifactKey: Guid(73a3a14a35c722943ad82f0150bfeb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion/SpikyExplosionGreen.prefab using Guid(73a3a14a35c722943ad82f0150bfeb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba9170e9c3e538b964b3489c054127e') in 0.015775 seconds 
+  Import took 0.020892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.190941 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SparkleExplosion/SparkleExplosionPink.prefab
+  artifactKey: Guid(e87d77b2ce40fbb4cb11a13a0ec604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SparkleExplosion/SparkleExplosionPink.prefab using Guid(e87d77b2ce40fbb4cb11a13a0ec604cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dce6714d5c07a9e2632efe8f792a2e') in 0.020998 seconds 
+  Import took 0.026264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.917512 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SparkleExplosion/SparkleExplosionGreen.prefab
+  artifactKey: Guid(ea6fb368ff0ea2e409d54725029e8021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SparkleExplosion/SparkleExplosionGreen.prefab using Guid(ea6fb368ff0ea2e409d54725029e8021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e77da0a24c7e26acab8c4e127791a6') in 0.015895 seconds 
+  Import took 0.021358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.308497 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SparkleExplosion/SparkleExplosionBlue.prefab
+  artifactKey: Guid(6c484679447289e46afc215e1ad87857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SparkleExplosion/SparkleExplosionBlue.prefab using Guid(6c484679447289e46afc215e1ad87857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b63ab80c9bfbaf02558ab5f47c4424') in 0.014349 seconds 
+  Import took 0.019635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.018083 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SparkleExplosion/SparkleExplosionYellow.prefab
+  artifactKey: Guid(70d6dfe08ec8a1447b4822e95e56918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/SparkleExplosion/SparkleExplosionYellow.prefab using Guid(70d6dfe08ec8a1447b4822e95e56918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfe3123060ee7d0347dba6eaa713e96') in 0.014968 seconds 
+  Import took 0.020009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.230396 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundGreen.prefab
+  artifactKey: Guid(557d199a6dc5c384c9310c0f11e2f8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundGreen.prefab using Guid(557d199a6dc5c384c9310c0f11e2f8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d901cb3a39d9f78da87a59cb4f0a843') in 0.017978 seconds 
+  Import took 0.023125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.443793 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundPink.prefab
+  artifactKey: Guid(8cd1104783594d040862e4173af2522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundPink.prefab using Guid(8cd1104783594d040862e4173af2522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f9dc089673f77f0ea3a0db4469ec73') in 0.015462 seconds 
+  Import took 0.020651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.646027 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundBlue.prefab
+  artifactKey: Guid(4dbaeaca9d7e967419f27723f2718287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion/ExplosionRoundBlue.prefab using Guid(4dbaeaca9d7e967419f27723f2718287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08a4ae0595cd3a17a128ee74263c486') in 0.015475 seconds 
+  Import took 0.020486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.432438 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionPink.prefab
+  artifactKey: Guid(ba31194ef34f22e49a0a0b1f178dc13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionPink.prefab using Guid(ba31194ef34f22e49a0a0b1f178dc13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3639260ae17380a57b1887b99ecda195') in 0.034859 seconds 
+  Import took 0.042379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.605496 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionGreen.prefab
+  artifactKey: Guid(3a6bd25b5a08b114d8b5d315a2e9376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionGreen.prefab using Guid(3a6bd25b5a08b114d8b5d315a2e9376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254326f0a86b88e0bd419b99afab7415') in 0.031873 seconds 
+  Import took 0.039613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.696442 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionFire.prefab
+  artifactKey: Guid(9f03f372adf02874cb666857a9f97abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionFire.prefab using Guid(9f03f372adf02874cb666857a9f97abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb76b979fb75460eadd65df3ee4def84') in 0.028926 seconds 
+  Import took 0.036123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.510626 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionBlue.prefab
+  artifactKey: Guid(6d8229e80027fc54195fba9200a99df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionBlue.prefab using Guid(6d8229e80027fc54195fba9200a99df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba41a3a461339f2a64acb5d2cb0480d') in 0.030438 seconds 
+  Import took 0.038127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.399858 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionPink.prefab
+  artifactKey: Guid(c217f262fea9e90468154f70d667707c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionPink.prefab using Guid(c217f262fea9e90468154f70d667707c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765d0067b9910c339a8652dfcff7a933') in 0.029883 seconds 
+  Import took 0.036508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.489743 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionGreen.prefab
+  artifactKey: Guid(50c0d8c73dfeed248826c384c274984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionGreen.prefab using Guid(50c0d8c73dfeed248826c384c274984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a010df49b13f9372b35d2434dc3e4549') in 0.030614 seconds 
+  Import took 0.037460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578309 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionFire.prefab
+  artifactKey: Guid(07bf9ced87963e24299c2c2a22bfeeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion/NukeExplosionFire.prefab using Guid(07bf9ced87963e24299c2c2a22bfeeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b440e800e8833eadae966f7eda380b2') in 0.029651 seconds 
+  Import took 0.036576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.309243 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeConeExplosion/NukeConeExplosionGreen.prefab
+  artifactKey: Guid(241480e4d682d6f4b9d35136d8208e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeConeExplosion/NukeConeExplosionGreen.prefab using Guid(241480e4d682d6f4b9d35136d8208e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6eeb04e5abfd48866bbe26e310d44f') in 0.029841 seconds 
+  Import took 0.037239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.345966 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeConeExplosion/NukeConeExplosionPink.prefab
+  artifactKey: Guid(b179a4b6ccaf1ad459bbd10cfc2e1ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeConeExplosion/NukeConeExplosionPink.prefab using Guid(b179a4b6ccaf1ad459bbd10cfc2e1ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae97a6828632b28fc052e53f910ebe7') in 0.030373 seconds 
+  Import took 0.037350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.672183 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeConeExplosion/NukeConeExplosionBlue.prefab
+  artifactKey: Guid(ad82adc91f9827d48890e80c546cdce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NukeConeExplosion/NukeConeExplosionBlue.prefab using Guid(ad82adc91f9827d48890e80c546cdce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7540922f477b4a24874666be21cbbf37') in 0.030885 seconds 
+  Import took 0.037750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.209696 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaGreen.prefab
+  artifactKey: Guid(b69cacae8a5b6f24ea06ba15a8bb910e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaGreen.prefab using Guid(b69cacae8a5b6f24ea06ba15a8bb910e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce37dc2eb762bed91bc8ba3352214b5') in 0.030923 seconds 
+  Import took 0.038030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.613937 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaPink.prefab
+  artifactKey: Guid(57ac5680dabf21944b5c2d0366061eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion/ExplosionNovaPink.prefab using Guid(57ac5680dabf21944b5c2d0366061eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97572a1a1f6d7fa585b72c6f69808808') in 0.031348 seconds 
+  Import took 0.038808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.557796 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionPurple.prefab
+  artifactKey: Guid(625fd74b8294443449d2aded4ac87947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionPurple.prefab using Guid(625fd74b8294443449d2aded4ac87947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76626ad9f94b0d80736ed50d587dc2e') in 0.015516 seconds 
+  Import took 0.020722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.567798 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionWhite.prefab
+  artifactKey: Guid(632339e29e2ddd64aab6f9dd68facc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionWhite.prefab using Guid(632339e29e2ddd64aab6f9dd68facc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22fe31163114de73b45a46b41312ae6') in 0.011932 seconds 
+  Import took 0.016973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.026500 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionOrange.prefab
+  artifactKey: Guid(a4ae1c79c8256e84d8a5d48ee87b61b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion/MysticExplosionOrange.prefab using Guid(a4ae1c79c8256e84d8a5d48ee87b61b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759ca2244adfe8694582180a4bc11bd7') in 0.013557 seconds 
+  Import took 0.018505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.342208 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionYellow.prefab
+  artifactKey: Guid(23ffe291646e5a24cb5322ad0784de8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionYellow.prefab using Guid(23ffe291646e5a24cb5322ad0784de8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860984566aa9238bf5c02be52d30f627') in 0.021426 seconds 
+  Import took 0.027267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.672696 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionRed.prefab
+  artifactKey: Guid(5a28ab12a60431942ac754ec3f39c551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionRed.prefab using Guid(5a28ab12a60431942ac754ec3f39c551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a920bad15033fab152d54d338109301f') in 0.017678 seconds 
+  Import took 0.023373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.459112 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionPink.prefab
+  artifactKey: Guid(3a42f18a610374a469fdfc06cda3fdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionPink.prefab using Guid(3a42f18a610374a469fdfc06cda3fdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c135c0417da8d2e8d76504fd13eabbf0') in 0.018574 seconds 
+  Import took 0.024196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.205768 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionYellow 1.prefab
+  artifactKey: Guid(3ce5ca9ff2b8b467896e358cf099d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionYellow 1.prefab using Guid(3ce5ca9ff2b8b467896e358cf099d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849bceeca5ceaaa207bff439b6961ea4') in 0.018099 seconds 
+  Import took 0.023699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.990472 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionGreen.prefab
+  artifactKey: Guid(67bdebbb85b13b245b9a81082c88a910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MegaExplosion/MegaExplosionGreen.prefab using Guid(67bdebbb85b13b245b9a81082c88a910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0e6fed6c88c21b8db32f19c85d237d') in 0.016691 seconds 
+  Import took 0.022774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.158574 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionGreen.prefab
+  artifactKey: Guid(62bc425171c9c964ba37f4fde2b18e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionGreen.prefab using Guid(62bc425171c9c964ba37f4fde2b18e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19f8b4cf19f10d64464c85957019cfc') in 0.012675 seconds 
+  Import took 0.017614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968396 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionFire.prefab
+  artifactKey: Guid(34c006058d7d594449f3fb5c03a6d852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionFire.prefab using Guid(34c006058d7d594449f3fb5c03a6d852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45685c839023c74bd39403159378dab5') in 0.012861 seconds 
+  Import took 0.018136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669448 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionBlue.prefab
+  artifactKey: Guid(658fc6655c1c78e45a80243a241f1b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionBlue.prefab using Guid(658fc6655c1c78e45a80243a241f1b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b587b900293449139d843ce5473f3b8') in 0.011995 seconds 
+  Import took 0.017095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.689610 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionPink.prefab
+  artifactKey: Guid(fb50a68104cea5f438567fcabb8efb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionPink.prefab using Guid(fb50a68104cea5f438567fcabb8efb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5839861682b0e6bbc176a593c6cad05f') in 0.028375 seconds 
+  Import took 0.034658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.707694 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionGreen.prefab
+  artifactKey: Guid(ded43eaee385aa94eafade73f78babdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionGreen.prefab using Guid(ded43eaee385aa94eafade73f78babdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc08a00b5c641629cfe2757e1460fc28') in 0.026671 seconds 
+  Import took 0.032493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.081202 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionFire.prefab
+  artifactKey: Guid(8d10f8b48acb63e4989ba5fc3a95100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionFire.prefab using Guid(8d10f8b48acb63e4989ba5fc3a95100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381728fa1092a2f76d5c1bdf3cfb9ed8') in 0.023529 seconds 
+  Import took 0.028969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.309497 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionBlue.prefab
+  artifactKey: Guid(12673f4cc7f725d4082ece9c7c724b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionBlue.prefab using Guid(12673f4cc7f725d4082ece9c7c724b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c842d1c88db390b33bf8482a9e862226') in 0.021761 seconds 
+  Import took 0.027183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.354855 seconds.
+  path: Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901013bc4121285b07a181d9a839d03c') in 0.023089 seconds 
+  Import took 0.029070 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003270 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:33:58.978 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001536fb0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1361ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1170ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 355.4 MB.
+System memory in use after: 355.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3312.
+Total: 3.203000 ms (FindLiveObjects: 0.241080 ms CreateObjectMapping: 0.107500 ms MarkObjects: 2.838017 ms  DeleteObjects: 0.015641 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.548062 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338bd3f183250ce810ba14c0c879f638') in 0.079153 seconds 
+  Import took 0.085201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.721711 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e275d69a7ac8c8713404a783853a5e6e') in 0.025204 seconds 
+  Import took 0.030492 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:34:31.375 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001556d10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1320ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1117ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 355.6 MB.
+System memory in use after: 355.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3315.
+Total: 3.860384 ms (FindLiveObjects: 0.260020 ms CreateObjectMapping: 0.111510 ms MarkObjects: 3.467292 ms  DeleteObjects: 0.020575 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.378166 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acec52fbf27a3a0c53450fbde05ed14') in 0.079425 seconds 
+  Import took 0.085635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.303393 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714b9abb5df0e6d5133d81b1d14f3f54') in 0.052000 seconds 
+  Import took 0.059238 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005198 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:35:11.169 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001536fb0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1336ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 356.0 MB.
+System memory in use after: 356.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3318.
+Total: 4.002844 ms (FindLiveObjects: 0.375040 ms CreateObjectMapping: 0.199646 ms MarkObjects: 3.405807 ms  DeleteObjects: 0.021082 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.683670 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a437c17292d756186fd1c31467a0c7') in 0.090206 seconds 
+  Import took 0.095861 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:35:46.945 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001518850 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1327ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1130ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (456ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 356.1 MB.
+System memory in use after: 356.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3321.
+Total: 4.021996 ms (FindLiveObjects: 0.262786 ms CreateObjectMapping: 0.115819 ms MarkObjects: 3.621180 ms  DeleteObjects: 0.020966 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.106634 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8556f36c6beb5cbf005be07e7e0565') in 0.079218 seconds 
+  Import took 0.085420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.106478 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb42f9c46a322e0deac2eaecc211ba0f') in 0.049996 seconds 
+  Import took 0.056872 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006202 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:36:05.313 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000156d6c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.263 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1264ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 356.3 MB.
+System memory in use after: 356.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3324.
+Total: 3.360401 ms (FindLiveObjects: 0.259302 ms CreateObjectMapping: 0.114143 ms MarkObjects: 2.971158 ms  DeleteObjects: 0.015090 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.015698 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b54210dee06c14c7e20461bf8628d2') in 0.088678 seconds 
+  Import took 0.094284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.438051 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4dd42cdfdc6ff234861e7700917d06') in 0.024219 seconds 
+  Import took 0.029495 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:36:41.136 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000015256c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1317ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1122ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 356.6 MB.
+System memory in use after: 356.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3327.
+Total: 3.950543 ms (FindLiveObjects: 0.286220 ms CreateObjectMapping: 0.122813 ms MarkObjects: 3.519606 ms  DeleteObjects: 0.021006 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.319913 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c41d34befc6cb7de8bb8bbaedd8c04') in 0.082140 seconds 
+  Import took 0.087684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.952336 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413b484ff3e0275585a5f3bc3b146a8d') in 0.038473 seconds 
+  Import took 0.043807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.253649 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a520f992effe506a8235148ec2565e') in 0.057238 seconds 
+  Import took 0.063470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.837772 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ddddde4bad35578b424c5da8f913dd') in 0.038106 seconds 
+  Import took 0.044251 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:37:37.645 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000154fcd0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1476ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1266ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (468ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 356.9 MB.
+System memory in use after: 357.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3330.
+Total: 3.238350 ms (FindLiveObjects: 0.251496 ms CreateObjectMapping: 0.114588 ms MarkObjects: 2.856691 ms  DeleteObjects: 0.014873 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.980831 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9469dcdfc70ff109a93e028f2f77ce5f') in 0.090611 seconds 
+  Import took 0.096739 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:38:41.961 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000156e7d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1245ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1047ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 357.1 MB.
+System memory in use after: 357.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3333.
+Total: 2.987009 ms (FindLiveObjects: 0.213600 ms CreateObjectMapping: 0.090508 ms MarkObjects: 2.668342 ms  DeleteObjects: 0.013929 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:39:01.013 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000159a920 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.385 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1386ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1177ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 357.3 MB.
+System memory in use after: 357.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3335.
+Total: 3.750798 ms (FindLiveObjects: 0.260626 ms CreateObjectMapping: 0.122877 ms MarkObjects: 3.349210 ms  DeleteObjects: 0.017348 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:39:11.504 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000151a0d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.339 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1158ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (399ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (16ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 357.6 MB.
+System memory in use after: 357.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3337.
+Total: 3.665693 ms (FindLiveObjects: 0.272481 ms CreateObjectMapping: 0.116636 ms MarkObjects: 3.258493 ms  DeleteObjects: 0.017251 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:39:53.773 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000153d9d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1289ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1107ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 357.8 MB.
+System memory in use after: 358.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3339.
+Total: 3.911267 ms (FindLiveObjects: 0.252274 ms CreateObjectMapping: 0.109913 ms MarkObjects: 3.531237 ms  DeleteObjects: 0.016995 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 129.341910 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae6c295e080ced9e8ae93468fb28aef') in 0.091240 seconds 
+  Import took 0.097385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.688044 seconds.
+  path: Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab
+  artifactKey: Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerActionEffectPrefabs/MagicExplosionBlue 1.prefab using Guid(e3a825a7105604ec3948d4bfe1b38895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cabe41edea68f54528edf1eb42afed5') in 0.022865 seconds 
+  Import took 0.028899 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:41:27.965 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000015bfbf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1403ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1207ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (399ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 358.0 MB.
+System memory in use after: 358.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3342.
+Total: 4.227280 ms (FindLiveObjects: 0.295484 ms CreateObjectMapping: 0.131591 ms MarkObjects: 3.778568 ms  DeleteObjects: 0.020676 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:56:26.749 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001591650 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1255ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1080ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 358.3 MB.
+System memory in use after: 358.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3344.
+Total: 3.197891 ms (FindLiveObjects: 0.227418 ms CreateObjectMapping: 0.091592 ms MarkObjects: 2.863821 ms  DeleteObjects: 0.014413 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:57:06.277 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001596140 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.366 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1367ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (432ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 358.5 MB.
+System memory in use after: 358.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3346.
+Total: 3.657377 ms (FindLiveObjects: 0.269082 ms CreateObjectMapping: 0.128749 ms MarkObjects: 3.241541 ms  DeleteObjects: 0.017299 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004356 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:58:19.722 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000157cfc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1226ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1048ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 358.7 MB.
+System memory in use after: 358.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3348.
+Total: 3.086263 ms (FindLiveObjects: 0.246196 ms CreateObjectMapping: 0.103271 ms MarkObjects: 2.721926 ms  DeleteObjects: 0.014165 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2021-12-19 20:59:12.923 Unity[3643:193768] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001536a70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1268ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 358.9 MB.
+System memory in use after: 359.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3350.
+Total: 4.283030 ms (FindLiveObjects: 0.267626 ms CreateObjectMapping: 0.174431 ms MarkObjects: 3.820622 ms  DeleteObjects: 0.019474 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -8,14 +8,20 @@ using UnityEngine;
 public class PlayerConfig : ScriptableObject
 {
 
+
     [SerializeField] private float playerMoveSpeed;
     [SerializeField] private float playerJumpSpeed;
     [SerializeField] private int playerMaxJumpCount;
+    [SerializeField] private float playerHealth;
+    [SerializeField] private float playerHitRecoverTime;
 
 
     public float GetPlayerMoveSpeed() => playerMoveSpeed;
     public float GetPlayerJumpSpeed() => playerJumpSpeed;
     public float GetPlayerMaxJumpCount() => playerMaxJumpCount;
+    public float GetPlayerHealth() => playerHealth;
+    public float GetplayerHitRecoverTime() => playerHitRecoverTime;
+
 
 
 }

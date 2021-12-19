@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f863b05e92c4b16a33fe261c3a5966, type: 3}
   m_Name: BombEnemyConfig
   m_EditorClassIdentifier: 
-  enemyMoveSpeed: 2
+  enemybaseMoveSpeed: 2

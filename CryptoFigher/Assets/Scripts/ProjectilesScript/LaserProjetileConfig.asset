@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpeed: 30
   waiteTimeToDestroy: 2
-  laserExplosionEffectPrefab: {fileID: 152634, guid: c816e04fdd948ef479558e37f6acc4ae, type: 3}
+  laserExplosionEffectPrefab: {fileID: 152634, guid: e8bf173d745c04c10a2aeb1f8b3cf6de, type: 3}

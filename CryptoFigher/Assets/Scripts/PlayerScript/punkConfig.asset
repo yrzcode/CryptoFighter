@@ -15,3 +15,5 @@ MonoBehaviour:
   playerMoveSpeed: 15
   playerJumpSpeed: 35
   playerMaxJumpCount: 1
+  playerHealth: 9999999
+  playerHitRecoverTime: 0.5

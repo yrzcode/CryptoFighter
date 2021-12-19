@@ -1,11 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerPunk : Player
 {
-    [SerializeField] PlayerConfig punkConfig;
-
-    public PlayerConfig GetPlayerConfig() => punkConfig;
-
+    internal void StopPlayerHorizontalMovement(object stopPlayerMovementTime)
+    {
+        throw new NotImplementedException();
+    }
 }
