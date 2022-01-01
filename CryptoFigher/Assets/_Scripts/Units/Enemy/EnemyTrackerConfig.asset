@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f863b05e92c4b16a33fe261c3a5966, type: 3}
+  m_Name: EnemyTrackerConfig
+  m_EditorClassIdentifier: 
+  enemybaseMoveSpeed: 5
+  collsionDamge: 9999
+  destroyEffcet: {fileID: 159854, guid: c4efdc8caf8a041fc90e3e7d22c543a1, type: 3}
+  wallDestroyEffect: {fileID: 159854, guid: 175f73c9fb46d4c08be48e796c8f8fad, type: 3}

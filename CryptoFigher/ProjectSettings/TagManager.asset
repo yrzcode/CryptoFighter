@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PlayerLaserGreen
   - BombEnemy
+  - Ground
+  - PlayerBigLaser
   layers:
   - Default
   - TransparentFX
@@ -17,10 +19,10 @@ TagManager:
   - BombEnemy
   - Box
   - Boundary
-  - 
-  - 
-  - 
-  - 
+  - TrackerSwpanPoint
+  - PostProcessing
+  - BackGround
+  - BigLaser
   - 
   - 
   - 

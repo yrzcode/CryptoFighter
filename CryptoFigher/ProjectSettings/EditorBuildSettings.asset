@@ -6,8 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Sprites/craftpix/craftpix-net-481510-free-townspeople-cyberpunk-pixel-art/7/Stage
-      1.unity
+    path: Assets/Scenes/Stage 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: dd8f5f4dc1ad34c9b8bc360df8cbde14, type: 2}
