@@ -51,14 +51,17 @@ TagManager:
   - name: Ground
     uniqueID: 683143431
     locked: 0
-  - name: Enemies
-    uniqueID: 2811632659
+  - name: PlayerProjectiles
+    uniqueID: 2826144137
     locked: 0
   - name: Player
     uniqueID: 3399316763
     locked: 0
-  - name: Projectiles
+  - name: EnemyProjectiles
     uniqueID: 594164223
+    locked: 0
+  - name: Enemies
+    uniqueID: 2811632659
     locked: 0
   - name: Effects
     uniqueID: 2318472963

@@ -1,24 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using Sirenix.OdinInspector;
 
 namespace CryptoFighter.n_InputSystem
 {
 
-    public class InputSystemBaseController : MonoBehaviour, IInputController
+    public class InputSystemBaseController : MonoBehaviour,IInputSystemController
     {
 
-        private PlayerAction inputActions;
 
-        public PlayerAction InputActions { get => inputActions; set => inputActions = value; }
+        private PlayerAction _inputActions;
+        private Action<InputAction.CallbackContext> jumpAction;
+        
 
-        public PlayerAction GetInputAction() => InputActions;
+        public Action<InputAction.CallbackContext> JumpAction { get => jumpAction; set => jumpAction = value; }
 
+        public PlayerAction GetInputAction() => _inputActions;
+        
 
         void Awake()
         {
-            InputActions = new PlayerAction();
-            InputActions.Enable();
+            _inputActions = new PlayerAction();
+            _inputActions.Enable();
+
+        }
+
+
+        private void OnEnable()
+        {
+            _inputActions.Player.Jump.performed += JumpAction;
+
+        }
+
+        private void OnDisable()
+        {
+            _inputActions.Player.Jump.performed -= JumpAction;
         }
 
 

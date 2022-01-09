@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-using CryptoFighter._UI;
+using CryptoFighter.n_UI;
 using CryptoFighter.n_Status;
 
 
@@ -143,7 +143,7 @@ namespace CryptoFighter.n_Attack.n_Shooting
         {
 
 
-            Vector2 mousePostion = playerPunk.input.InputActions.Player.GetMousePostion.ReadValue<Vector2>();
+            Vector2 mousePostion = playerPunk.input.GetInputAction().Player.GetMousePostion.ReadValue<Vector2>();
 
             return
             Camera.main.ScreenToWorldPoint(mousePostion);

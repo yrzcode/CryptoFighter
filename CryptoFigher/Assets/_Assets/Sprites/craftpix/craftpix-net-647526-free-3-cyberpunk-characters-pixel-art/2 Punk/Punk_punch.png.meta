@@ -124,12 +124,12 @@ TextureImporter:
       name: Punk_punch_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 0
-        width: 28
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,12 +145,12 @@ TextureImporter:
       name: Punk_punch_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 50
         y: 0
-        width: 28
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,12 +166,12 @@ TextureImporter:
       name: Punk_punch_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 100
         y: 0
-        width: 28
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: Punk_punch_3
       rect:
         serializedVersion: 2
-        x: 144
+        x: 154
         y: 0
-        width: 28
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: Punk_punch_4
       rect:
         serializedVersion: 2
-        x: 192
+        x: 202
         y: 0
-        width: 28
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: Punk_punch_5
       rect:
         serializedVersion: 2
-        x: 240
+        x: 246
         y: 0
-        width: 28
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 15
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

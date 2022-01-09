@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CryptoFighter._Audio
+namespace CryptoFighter.n_Audio
 {
 
     public class MusicPlayer : MonoBehaviour

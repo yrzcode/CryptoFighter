@@ -9,9 +9,16 @@ namespace CryptoFighter.n_Status
     {
 
         [SerializeField] float currentMoveSpeed;
+        
 
-
-        public float CurrentMoveSpeed { get => currentMoveSpeed; set => currentMoveSpeed = value; }
+        public float CurrentMoveSpeed
+        {
+            get => currentMoveSpeed;
+            set
+            {
+                currentMoveSpeed = Mathf.Clamp(value, 0, float.MaxValue);
+            }
+        }
 
 
 

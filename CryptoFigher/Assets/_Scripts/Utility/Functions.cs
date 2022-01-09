@@ -24,9 +24,17 @@ namespace CryptoFighter
         //    }
         //}
 
+        public static Camera _camera;
+        public static Camera Camera
+        {
+            get
+            {
+                if (_camera == null) _camera = Camera.main;
+                return _camera;
+            }
+        }
 
         const float playerNormalGravity = 10;
-        static Camera _camera = Camera.main;
 
 
 
@@ -39,10 +47,10 @@ namespace CryptoFighter
         {
             InputSystemBaseController input = FindObjectOfType<InputSystemBaseController>();
 
-            Vector3 mousePos = input.InputActions.Player.GetMousePostion.ReadValue<Vector2>();
+            Vector3 mousePos = input.GetInputAction().Player.GetMousePostion.ReadValue<Vector2>();
 
             return
-            Camera.main.ScreenToWorldPoint(mousePos);
+            Camera.ScreenToWorldPoint(mousePos);
 
         }
 

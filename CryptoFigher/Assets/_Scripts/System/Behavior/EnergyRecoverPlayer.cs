@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace CryptoFighter._Behavior
+namespace CryptoFighter.n_Behavior
 {
     public class EnergyRecoverPlayer : EnergyRecover
     {

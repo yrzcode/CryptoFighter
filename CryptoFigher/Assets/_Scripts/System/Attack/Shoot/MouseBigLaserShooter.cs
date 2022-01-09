@@ -157,7 +157,7 @@ namespace CryptoFighter.n_Attack.n_Shooting
 
         public void HandleShootBigLaser()
         {
-            isShootingbigLaser = GetComponent<PlayerPunk>().input.InputActions.Player.BigAttack.IsPressed();
+            isShootingbigLaser = GetComponent<PlayerPunk>().input.GetInputAction().Player.BigAttack.IsPressed();
 
 
             bigLaserShooter.SetActive(isShootingbigLaser);

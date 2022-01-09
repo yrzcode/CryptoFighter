@@ -80,13 +80,13 @@ namespace CryptoFighter.n_Unit.n_Player
 
         private void OnEnable()
         {
-            input.InputActions.Player.Jump.performed += OnJump;
+            input.GetInputAction().Player.Jump.performed += OnJump;
 
-            input.InputActions.Player.Fire.performed += OnShoot;
+            input.GetInputAction().Player.Fire.performed += OnShoot;
 
-            input.InputActions.Player.Fire.performed += context => shooterMouse.HandleShooting();
+            input.GetInputAction().Player.Fire.performed += context => shooterMouse.HandleShooting();
 
-            input.InputActions.Player.BigAttack.canceled += BigLaserCancleAnime;
+            input.GetInputAction().Player.BigAttack.canceled += BigLaserCancleAnime;
         }
 
         private void OnShoot(InputAction.CallbackContext obj)
@@ -124,13 +124,13 @@ namespace CryptoFighter.n_Unit.n_Player
 
         private void OnDisable()
         {
-            input.InputActions.Player.Jump.performed -= OnJump;
+            input.GetInputAction().Player.Jump.performed -= OnJump;
 
-            input.InputActions.Player.Fire.performed -= OnShoot;
+            input.GetInputAction().Player.Fire.performed -= OnShoot;
 
-            input.InputActions.Player.Fire.performed -= context => shooterMouse.HandleShooting();
+            input.GetInputAction().Player.Fire.performed -= context => shooterMouse.HandleShooting();
 
-            input.InputActions.Player.BigAttack.canceled -= BigLaserCancleAnime;
+            input.GetInputAction().Player.BigAttack.canceled -= BigLaserCancleAnime;
 
         }
 
@@ -151,7 +151,7 @@ namespace CryptoFighter.n_Unit.n_Player
         private void Update()
         {
 
-            playerInputValue = input.InputActions.Player.Move.ReadValue<Vector2>();
+            playerInputValue = input.GetInputAction().Player.Move.ReadValue<Vector2>();
 
             HandlePlayerMovement();
 

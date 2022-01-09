@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-namespace CryptoFighter._Behavior
+namespace CryptoFighter.n_Behavior
 {
     public class Tracker2 : MonoBehaviour
     {

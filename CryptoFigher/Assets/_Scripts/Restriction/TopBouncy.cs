@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CryptoFighter._Restriction
+namespace CryptoFighter.n_Restriction
 {
     public class TopBouncy : MonoBehaviour
     {

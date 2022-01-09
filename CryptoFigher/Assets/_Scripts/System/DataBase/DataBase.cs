@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace CryptoFighter._Data
+namespace CryptoFighter.n_Data
 {
     public class DataBase : MonoBehaviour
     {

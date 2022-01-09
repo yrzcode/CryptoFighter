@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using System;
 using UnityEngine;
 
 
 namespace CryptoFighter.n_Status
 {
-    public class Health : MonoBehaviour, IChangeableStatus, IOnChangeAction
+    public class Health : MonoBehaviour, IChangeableStatus, IOnVelocityChangeAction
     {
 
         [SerializeField] int maxHealth;
+
+        [ReadOnly]
         [SerializeField] int currentHealth;
 
         public event Action OnIncrease;

@@ -126,10 +126,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,12 +145,12 @@ TextureImporter:
       name: Punk_attack1_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 47
         y: 0
-        width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,12 +166,12 @@ TextureImporter:
       name: Punk_attack1_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 94
         y: 0
-        width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: Punk_attack1_3
       rect:
         serializedVersion: 2
-        x: 144
+        x: 146
         y: 0
-        width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: Punk_attack1_4
       rect:
         serializedVersion: 2
-        x: 192
+        x: 195
         y: 0
-        width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: Punk_attack1_5
       rect:
         serializedVersion: 2
-        x: 240
+        x: 242
         y: 0
-        width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 28
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

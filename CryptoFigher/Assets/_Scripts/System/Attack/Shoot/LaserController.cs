@@ -82,7 +82,7 @@ namespace CryptoFighter.n_Attack.Prejectile
 
             //var mousePostion = playerInput.actions["GetMousePostion"].ReadValue<Vector2>();
 
-            Vector2 mousePostion = playerPunk.input.InputActions.Player.GetMousePostion.ReadValue<Vector2>();
+            Vector2 mousePostion = playerPunk.input.GetInputAction().Player.GetMousePostion.ReadValue<Vector2>();
 
             return
             Camera.main.ScreenToWorldPoint(mousePostion);

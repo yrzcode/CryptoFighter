@@ -10,7 +10,7 @@ using TMPro;
 using CryptoFighter.n_Status;
 
 
-namespace CryptoFighter._UI
+namespace CryptoFighter.n_UI
 {
     public class CanvasManager : MonoBehaviour
     {

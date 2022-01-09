@@ -48,7 +48,7 @@ namespace CryptoFighter.n_Attack.n_Shooting
         public void HandleShootLaser()
         {
 
-            isShootingLaser = GetComponent<PlayerPunk>().input.InputActions.Player.Fire.IsPressed();
+            isShootingLaser = GetComponent<PlayerPunk>().input.GetInputAction().Player.Fire.IsPressed();
 
 
             laserShooter.SetActive(isShootingLaser);

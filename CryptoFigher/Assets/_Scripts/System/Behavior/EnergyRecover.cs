@@ -5,7 +5,7 @@ using UnityEngine;
 
 using CryptoFighter.n_Status;
 
-namespace CryptoFighter._Behavior
+namespace CryptoFighter.n_Behavior
 {
     public class EnergyRecover : MonoBehaviour
     {

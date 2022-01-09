@@ -24,7 +24,7 @@ namespace CryptoFighter.n_Attack.n_Damage
             {
                 if (other.gameObject.tag == target.tag)
                 {
-                    other.gameObject.GetComponent<Health>().Decrease(damage);
+                    other.gameObject.GetComponentInChildren<Health>().Decrease(damage);
 
 
                     if (hitSound != null)
