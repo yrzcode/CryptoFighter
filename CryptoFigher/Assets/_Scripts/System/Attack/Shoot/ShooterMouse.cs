@@ -58,7 +58,7 @@ namespace CryptoFighter.n_Attack.n_Shooting
             StartCoroutine(FireLaser());
 
             energy.Decrease(energyConsume);
-            UI.UpdataEnergyBarVaule();
+            UI.UpdateEnergyBarValue();
 
             PlayFireEffect();
 

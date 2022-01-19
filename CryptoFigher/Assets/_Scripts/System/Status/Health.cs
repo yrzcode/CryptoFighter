@@ -1,67 +1,36 @@
-using System.Collections;
-using System.Collections.Generic;
-using Sirenix.OdinInspector;
 using System;
 using UnityEngine;
-
-
 namespace CryptoFighter.n_Status
 {
-    public class Health : MonoBehaviour, IChangeableStatus, IOnVelocityChangeAction
+    public class Health : MonoBehaviour, IChangeableStatus
     {
 
-        [SerializeField] int maxHealth;
-
-        [ReadOnly]
-        [SerializeField] int currentHealth;
+        [SerializeField] int _maxHealth;
+        [SerializeField] int _currentHealth;
 
         public event Action OnIncrease;
         public event Action DeIncrease;
 
-        public int MaxHealth { get => maxHealth; private set => maxHealth = value; }
+        public int MaxHealth { get => _maxHealth; private set => _maxHealth = value; }
         public int CurrentHealth
         {
-            get => currentHealth;
-            set
-            {
-                if (value > MaxHealth)
-                {
-                    value = MaxHealth;
-                    return;
-                }
-                else if (value < 0)
-                {
-                    value = 0;
-                    return;
-                }
-
-                currentHealth = value;
-            }
+            get => _currentHealth;
+            private set => _currentHealth = Mathf.Clamp(value, 0, _maxHealth);
         }
 
-
-        public void DecreaseCurrentHealth(int amount)
+        public void Increase(float amount){}
+        public void Decrease(float amount){}
+   
+        
+        public void Increase(int amount)
         {
-
-            currentHealth -= amount;
-
-            if (currentHealth < 0)
-            {
-                currentHealth = 0;
-            }
-
-        }
-
-        public void Increase(float amount)
-        {
-            CurrentHealth += (int)amount;
+            CurrentHealth += amount;
             OnIncrease?.Invoke();
-
         }
 
-        public void Decrease(float amount)
+        public void Decrease(int amount)
         {
-            CurrentHealth -= (int)amount;
+            CurrentHealth -= amount;
             DeIncrease?.Invoke();
         }
     }

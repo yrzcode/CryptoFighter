@@ -1,38 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
+using Random = UnityEngine.Random;
 
 namespace CryptoFighter.n_Status
 {
     public class MoveSpeed : MonoBehaviour, IChangeableStatus
     {
-
-        [SerializeField] float currentMoveSpeed;
-        
+        [SerializeField] float _currentMoveSpeed;
+        [SerializeField] private bool _fromRandomRange;
+        [SerializeField] private float _randomRange;
 
         public float CurrentMoveSpeed
         {
-            get => currentMoveSpeed;
-            set
-            {
-                currentMoveSpeed = Mathf.Clamp(value, 0, float.MaxValue);
-            }
+            get => _currentMoveSpeed;
+            set => _currentMoveSpeed = Mathf.Clamp(value, 0, float.MaxValue);
         }
 
-
-
-        public void Increase(float amount)
+        private void Start()
         {
-            CurrentMoveSpeed += amount;
+            if (_fromRandomRange) CurrentMoveSpeed += Random.Range(-_randomRange, _randomRange);
         }
 
-        public void Decrease(float amount)
-        {
-            CurrentMoveSpeed -= amount;
-        }
+        private void OnValidate() => CurrentMoveSpeed = _currentMoveSpeed;
+        
+        public void Increase(float amount) => CurrentMoveSpeed += amount;
+        public void Decrease(float amount) => CurrentMoveSpeed -= amount;
     }
-
-
 }
 

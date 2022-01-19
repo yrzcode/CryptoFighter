@@ -13,7 +13,6 @@ public class SpawnEnemy : MonoBehaviour
 
     private void Start()
     {
-
         enemySensorBoxCollider2D = GetComponent<BoxCollider2D>();
     }
 
@@ -22,7 +21,6 @@ public class SpawnEnemy : MonoBehaviour
 
         if (CanSpawnEnemy() && !hasSpawnEnemy)
         {
-            
             StartCoroutine(SwapnEnemyInterval(interval));
             hasSpawnEnemy = true;
         }
@@ -37,16 +35,12 @@ public class SpawnEnemy : MonoBehaviour
 
     private IEnumerator SwapnEnemyInterval(float waitTime)
     {
-
         for (int i = 0; i < maxSpawnAmount; i++)
         {
             Instantiate(testPrefab, transform.position, Quaternion.identity);
             yield return new WaitForSeconds(waitTime);
-
         }
-
         hasSpawnEnemy = false;
-        yield break;
     }
 
 

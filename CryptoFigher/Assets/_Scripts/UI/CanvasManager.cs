@@ -1,65 +1,47 @@
-using System.Collections;
-using System.Collections.Generic;
-using System;
-
-
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
 using CryptoFighter.n_Status;
-
 
 namespace CryptoFighter.n_UI
 {
     public class CanvasManager : MonoBehaviour
     {
 
-        [SerializeField] Health health;
-        [SerializeField] Energy energy;
+        [SerializeField] Health _health;
+        [SerializeField] Energy _energy;
 
-        [SerializeField] Slider healthBar;
-        [SerializeField] Slider energyBar;
+        [SerializeField] Slider _healthBar;
+        [SerializeField] Slider _energyBar;
 
-        [SerializeField] TextMeshProUGUI healthTMPro;
+        [SerializeField] TextMeshProUGUI _healthTMPro;
+        [SerializeField] TextMeshProUGUI _energyTMPro;
 
 
         private void Start()
         {
-            healthBar.maxValue = health.MaxHealth;
-            healthBar.value = healthBar.maxValue;
+            _healthBar.maxValue = _health.MaxHealth;
+            _healthBar.value = _healthBar.maxValue;
 
-            energyBar.maxValue = energy.MaxEnergy;
-            energyBar.value = energyBar.maxValue;
+            _energyBar.maxValue = _energy.MaxEnergy;
+            _energyBar.value = _energyBar.maxValue;
         }
 
         private void Update()
         {
             UpdateHealthSlider();
-
-            UpdataEnergyBarVaule();
-
+            UpdateEnergyBarValue();
+            
             UpdateHealthAmountText();
-
-
+            UpdateEnergyAmountText();
         }
 
+        private void UpdateHealthAmountText() => _healthTMPro.text = _health.CurrentHealth.ToString();
+        private void UpdateEnergyAmountText() => _energyTMPro.text = _energy.CurrentEnergy.ToString();
 
-        public void UpdataEnergyBarVaule()
-        {
-            energyBar.value = energy.CurrentEnergy;
-        }
 
-        private void UpdateHealthAmountText()
-        {
-            healthTMPro.text = health.CurrentHealth.ToString();
-        }
-
-        private void UpdateHealthSlider()
-        {
-            healthBar.value = health.CurrentHealth;
-
-        }
+        private void UpdateHealthSlider() => _healthBar.value = _health.CurrentHealth;
+        public void UpdateEnergyBarValue() => _energyBar.value = _energy.CurrentEnergy;
     }
 }
 

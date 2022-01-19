@@ -1,51 +1,50 @@
-using System.Collections;
-using System.Collections.Generic;
+using CryptoFighter.n_Status;
+using JetBrains.Annotations;
 using UnityEngine;
 
-namespace CryptoFighter.n_Attack.n_Damage
+namespace CryptoFighter.n_Attack
 {
     public class DamageDealer : MonoBehaviour
     {
-        [SerializeField] protected int damage;
-        [SerializeField] protected AudioClip hitPlayerSound;
-        [SerializeField] protected float hitPlayerSoundVolume;
+        [CanBeNull] protected Health _health;
 
-        protected void PlayDamageHitSound()
-        {
-            AudioSource.PlayClipAtPoint(hitPlayerSound, transform.position, hitPlayerSoundVolume);
-        }
+        [SerializeField] [CanBeNull] private Damage _damage;
+        [SerializeField] [CanBeNull] private AudioClip _damageSound;
+        [SerializeField] private float _damageSoundVolume;
+        [SerializeField] [CanBeNull] private GameObject _hitEffect;
+        
+        protected bool _dealDamage;
+        protected bool _hasDealDamage;
 
-        protected void PlayPlayerHurtAnime()
+
+        private void Update()
         {
-            PlayerPunk playerPunk = FindObjectOfType<PlayerPunk>();
-            if (playerPunk != null)
+            if (_dealDamage)
             {
-                Animator animator = playerPunk.GetComponentInChildren<Animator>();
-
-                animator.Play("Base Layer.PlayerHurtAnime");
+                DealDamage();
+                PlayDamageSound();
+                PlayDamageEffect();
+                _hasDealDamage = true;
             }
         }
 
-        protected void BeatBackTarget(GameObject target, float force)
+        private void DealDamage()
         {
-            Rigidbody2D rigidbody2D = target.GetComponent<Rigidbody2D>();
-
-            if (rigidbody2D != null)
-            {
-
-                if (target.gameObject.CompareTag("Player"))
-                {
-
-                    PlayerPunk playerPunk = target.gameObject.GetComponent<PlayerPunk>();
-
-
-                    playerPunk.PlayerIsHurt();
-                }
-
-                rigidbody2D.velocity -= new Vector2(target.transform.localScale.x * force, 0f);
-
-            }
+            if (_health != null)
+                if (_damage != null)
+                    _health.Decrease(_damage.DamageAmount);
         }
+
+        private void PlayDamageSound()
+        {
+            if (_damageSound != null) Functions.PlaySound(_damageSound, _damageSoundVolume);
+        }
+
+        private void PlayDamageEffect()
+        {
+            if (_hitEffect != null) Functions.PlayEffect(_hitEffect, transform.position, 1f);
+        }
+        
     }
 }
 

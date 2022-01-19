@@ -7,7 +7,14 @@ TagManager:
   - PlayerLaserGreen
   - BombEnemy
   - Ground
+  - PlayerProjectile
+  - PunkNormalGun
+  - PunkLaserGun
+  - TrackEnemy
   - PlayerBigLaser
+  - PlayerContainer
+  - Missile
+  - HealthBall
   layers:
   - Default
   - TransparentFX
@@ -16,14 +23,14 @@ TagManager:
   - Water
   - UI
   - Ground
-  - BombEnemy
+  - 
   - Box
   - Boundary
   - TrackerSwpanPoint
   - PostProcessing
   - BackGround
   - BigLaser
-  - 
+  - OnlyGround
   - 
   - 
   - 

@@ -1,60 +1,59 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using CryptoFighter.n_Status;
-
 
 namespace CryptoFighter.n_Unit._Enemy
 {
     public class EnemyTracker : Enemy
     {
-
+        
         [SerializeField] MoveSpeed _moveSpeed;
-        [SerializeField] GameObject image;
-        private Vector3 direction;
+        [SerializeField] GameObject _image;
+        [SerializeField] private Transform _target;
+        private Vector3 _direction;
+
+        protected override void Awake()
+        {
+            base.Awake();
+            _target = GameObject.FindGameObjectWithTag("Player").transform;
+        }
 
         private void Update()
         {
-
-            //HandleEnemyMovement();
+            // HandleEnemyMovement();
             HandleFlipping();
         }
 
         private void HandleFlipping()
         {
-            image.transform.localScale = new Vector3(Mathf.Sign(direction.x),
-               image.transform.localScale.y,
-               image.transform.localScale.z);
+            var localScale = _image.transform.localScale;
+            var localScaleX = Mathf.Sign(_direction.x);
+            localScale = new Vector3(localScaleX, localScale.y, localScale.z);
+            
+            _image.transform.localScale = localScale;
         }
 
-        //protected override void HandleEnemyMovement()
-        //{
-
-        //    direction = Player.punk.transform.position - transform.position;
-
-        //    transform.Translate(Vector3.ClampMagnitude(direction, 1f) * _moveSpeed.CurrentMoveSpeed * Time.deltaTime);
-        //}
+        private void HandleEnemyMovement()
+        {
+            _direction = _target.position - transform.position;
+            transform.Translate(Vector3.ClampMagnitude(_direction, 1f) * _moveSpeed.CurrentMoveSpeed * Time.deltaTime);
+        }
 
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-
-
             if (collision.gameObject.CompareTag("Ground"))
             {
-                playTrackerDestroyEffcet(config.WallDestroyEffect);
-
+                PlayTrackerDestroyEffect(config.WallDestroyEffect);
             }
 
-
-            playTrackerDestroyEffcet(config.GetDestroyEffcet());
+            PlayTrackerDestroyEffect(config.GetDestroyEffcet());
 
             Destroy(gameObject);
 
         }
 
-        private void playTrackerDestroyEffcet(GameObject prefab)
+        private void PlayTrackerDestroyEffect(GameObject prefab)
         {
             Instantiate(prefab, transform.position, Quaternion.identity);
         }
